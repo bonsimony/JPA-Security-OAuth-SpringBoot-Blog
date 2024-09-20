@@ -14,15 +14,15 @@ spring:
       suffix: .jsp
       
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url:  jdbc:mariadb://localhost:3306/blog?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false
-    username: cos
-    password: cos1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://localhost:3307/blog?serverTimezone=Asia/Seoul
+    username: bonsimony
+    password: bonsimony5678
     
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create #create #update #none
+      ddl-auto: update #create #update #none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #PhysicalNamingStrategyStandardImpl :  변수명 그대로 테이블 칼럼으로 만들어준다.
       use-new-id-generator-mappings: false #JPA의 기본전략(넘버링전략)을 따라가지 않겠다.
