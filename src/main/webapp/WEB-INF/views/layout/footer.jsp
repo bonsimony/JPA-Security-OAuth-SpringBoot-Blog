@@ -3,9 +3,9 @@
 	
 	<br/>
 	<div class="jumbotron text-center" style="margin-bottom: 0">
-		<p>Created By 김학본</p>
-		<p>📞010-2689-7027</p>
-		<p>🏴 부산 광역시 영도구 절영로 504, 조양비취맨션 5동 416호</p>
+		<p>Created By 본시모니</p>
+		<p>📞010-8888-8888</p>
+		<p>🏴 XX시 xx구 **동 **아파트 **동 ****호 </p>
 	</div>
 	
 </body>
